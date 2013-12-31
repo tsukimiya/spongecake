@@ -1,0 +1,23 @@
+RewriteEngine On
+
+# App routing
+RewriteRule ^$ index.php?dc_action=default/index [QSA,L]
+
+# DietCake routing
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !\.(css|gif|jpg|png|js|ico)$
+RewriteRule ^(.*)$ index.php?dc_action=$1 [QSA,L]
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/gif "access plus 10 year"
+ExpiresByType image/png "access plus 10 year"
+ExpiresByType image/jpg "access plus 10 year"
+ExpiresByType image/jpeg "access plus 10 year"
+</IfModule>
+FileETag none
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html
+</IfModule>
