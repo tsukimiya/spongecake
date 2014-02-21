@@ -29,10 +29,8 @@
         "filp/whoops": "dev-master"
     },
     "require" :{
-        "hybridauth/hybridauth": "3.0.0.*@dev",
         "twbs/bootstrap": "3.0.*@dev",
         "dietcake/dietcake": "dev-master",
         "SimpleDBI/SimpleDBI": "dev-master",
-        "monolog/monolog": "1.7.*@dev"
     }
 }
