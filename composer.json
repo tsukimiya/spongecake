@@ -31,6 +31,6 @@
     "require" :{
         "twbs/bootstrap": "3.0.*@dev",
         "dietcake/dietcake": "dev-master",
-        "SimpleDBI/SimpleDBI": "dev-master",
+        "SimpleDBI/SimpleDBI": "dev-master"
     }
 }
