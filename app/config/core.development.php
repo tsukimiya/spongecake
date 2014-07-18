@@ -16,7 +16,7 @@ $run->pushHandler($handler);
 $run->register();
 
 // mod_rewrite check
-if (!isset($_REQUEST['dc_action'])) {
+if (!isset($_REQUEST[DC_ACTION])) {
     throw new ErrorException('dc_action not found. please check mod_rewrite setting');
 }
 
