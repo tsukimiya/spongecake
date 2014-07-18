@@ -2,9 +2,6 @@
 // autoload
 require_once VENDOR_DIR.'autoload.php';
 
-// vendor - autoloadにかからないものを記述
-require_once VENDOR_DIR.'SimpleDBI/SimpleDBI/SimpleDBI.php';
-
 // application
 require_once APP_DIR.'app_controller.php';
 require_once APP_DIR.'app_model.php';
