@@ -11,18 +11,6 @@
                     "reference": "master"
                 }
             }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "SimpleDBI/SimpleDBI",
-                "version": "master",
-                "source": {
-                    "url": "https://github.com/ttsuruoka/php-simple-dbi.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
         }
     ],
     "require-dev": {
@@ -31,6 +19,6 @@
     "require" :{
         "twbs/bootstrap": "3.0.*@dev",
         "dietcake/dietcake": "dev-master",
-        "SimpleDBI/SimpleDBI": "dev-master"
+        "ttsuruoka/php-simple-dbi": "dev-master"
     }
 }
