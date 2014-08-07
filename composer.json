@@ -1,4 +1,23 @@
 {
+    "name": "dietcake/spongecake",
+    "description": "dietcake sample",
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Tatsuya Tsuruoka",
+            "email": "ttsuruoka@php.net",
+            "homepage": "https://github.com/ttsuruoka"
+        },
+        {
+            "name": "halt",
+            "homepage": "https://github.com/ha1t"
+        },
+        {
+            "name": "Kiryu Tsukimiya",
+            "email": "tsukimiya@gmail.com",
+            "homepage": "https://github.com/tsukimiya"
+        }
+    ],
     "repositories": [
         {
             "type": "package",
