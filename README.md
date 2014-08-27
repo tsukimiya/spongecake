@@ -4,13 +4,22 @@ spongecake は、dietcake のプロジェクトテンプレートです。 spong
 
 ## インストール手順
 
-### spongecakeのダウンロード
+### composerを使用してインストール
+
+composerが使えるなら、以下のコマンドで簡単にインストールすることが可能です。
+
+```
+composer create-project dietcake/spongecake path/ "1.0.*"
+```
+これで、path/ 以下にdietcakeが使える状態で展開されます。
+
+### zipファイルをダウンロードしてインストール
 
 https://github.com/tsukimiya/spongecake/releases/latest から最新のzipファイルをダウンロードし、展開します。
 
 ```
-wget https://github.com/tsukimiya/spongecake/archive/v0.4.zip
-unzip v0.4.zip
+wget https://github.com/tsukimiya/spongecake/archive/v1.0.0.zip
+unzip v1.0.0.zip
 ```
 
 ### core.php のコピー
