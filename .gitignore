@@ -8,6 +8,7 @@ phpunit.xml
 .vagrant
 Vagrantfile
 .idea
+composer.lock
 
 app/config/core.php
 app/config/log/config.php
