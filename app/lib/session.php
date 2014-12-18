@@ -8,7 +8,6 @@ class Session
 
     public static function get($key, $default = null)
     {
-
         return isset($_SESSION[$key]) ? $_SESSION[$key] : $default;
     }
 
