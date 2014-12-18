@@ -1,11 +1,6 @@
 <?php
 class Session
 {
-    public static function start()
-    {
-        session_start();
-    }
-
     public static function unsetId()
     {
         unset($_SESSION['id']);
