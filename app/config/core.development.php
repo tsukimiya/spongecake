@@ -9,6 +9,9 @@ ini_set('display_errors', 'On');
 ini_set('error_log', LOGS_DIR.'php.log');
 ini_set('session.auto_start', 0);
 
+// session
+//Session::start();
+
 // Whoops
 $run = new \Whoops\Run();
 $handler = new \Whoops\Handler\PrettyPageHandler();
