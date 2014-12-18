@@ -11,6 +11,9 @@ require_once APP_DIR.'app_exception.php';
 // helpers
 require_once HELPERS_DIR.'html_helper.php';
 
+// lib
+require_once APP_DIR.'lib/session.php';
+
 // config
 
 spl_autoload_register(function($name) {
