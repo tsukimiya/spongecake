@@ -1,7 +1,4 @@
 <?php
-// autoload
-require_once VENDOR_DIR.'autoload.php';
-
 // application
 require_once APP_DIR.'app_controller.php';
 require_once APP_DIR.'app_model.php';

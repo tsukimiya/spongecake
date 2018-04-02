@@ -11,6 +11,9 @@ if (php_sapi_name() === 'cli-server') {
     $_REQUEST['dc_action'] = preg_replace('/\A\//', '', $cli_filepath);
 }
 
+// autoload
+require_once ROOT_DIR.'vendor/autoload.php';
+
 require_once ROOT_DIR.'vendor/dietcake/dietcake/dietcake.php';
 require_once CONFIG_DIR.'bootstrap.php';
 require_once CONFIG_DIR.'core.php';
