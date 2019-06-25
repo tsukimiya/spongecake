@@ -9,7 +9,7 @@ spongecake は、dietcake のプロジェクトテンプレートです。 spong
 composerが使えるなら、以下のコマンドで簡単にインストールすることが可能です。
 
 ```
-composer create-project dietcake/spongecake path/ "1.0.*"
+composer create-project dietcake/spongecake path/ "1.*"
 ```
 これで、path/ 以下にdietcakeが使える状態で展開されます。
 
@@ -18,8 +18,8 @@ composer create-project dietcake/spongecake path/ "1.0.*"
 https://github.com/tsukimiya/spongecake/releases/latest から最新のzipファイルをダウンロードし、展開します。
 
 ```
-wget https://github.com/tsukimiya/spongecake/archive/v1.0.0.zip
-unzip v1.0.0.zip
+wget https://github.com/tsukimiya/spongecake/archive/v1.2.0.zip
+unzip v1.2.0.zip
 ```
 
 ### core.php のコピー
