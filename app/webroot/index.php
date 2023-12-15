@@ -2,9 +2,12 @@
 define('ROOT_DIR', dirname(dirname(__DIR__)).'/');
 define('APP_DIR', ROOT_DIR.'/app/');
 
-// PHP5.4 built-in web server support
-if (php_sapi_name() === 'cli-server') {
+// PHP built-in web server and FrankenPHP support
+if (in_array(php_sapi_name(), ['cli-server', 'frankenphp'], true)) {
     $cli_filepath = preg_replace('/(\?.*)\z/', '', $_SERVER['REQUEST_URI']);
+    if ($_SERVER['REQUEST_URI'] === '/') {
+        $cli_filepath = 'default/index';
+    }
     if (is_file(__DIR__.$cli_filepath)) {
         return false;
     }
